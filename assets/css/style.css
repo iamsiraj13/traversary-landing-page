@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+span,
+a {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  transition: all linear 0.3s;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  color: #2c3347;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.theme-btn {
+  color: #090f1f;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: capitalize;
+  padding: 19px 30px;
+  border-radius: 50px;
+  background: #eef6e7;
+  border: 0;
+}
+.theme-btn i {
+  font-size: 10px;
+  margin-left: 10px;
+  top: -1px;
+  position: relative;
+}
+.theme-btn:hover {
+  color: #ffffff;
+  background: #83cd8f;
+}
+.theme-btn.dark-btn {
+  background-color: #090f1f;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+.section-title .title {
+  color: #090f1f;
+  font-size: 50;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+/* header section start*/
+.heder-section {
+  background-color: #ffffff;
+  padding: 30px 0;
+}
+.heder-section .header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heder-section .header-main ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.heder-section .header-main ul li a {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 27px;
+  color: #090f1f;
+  font-size: 18px;
+  display: block;
+  text-transform: capitalize;
+}
+.heder-section .header-main ul li a i {
+  font-size: 10px;
+  position: relative;
+  top: -1;
+}
+.heder-section .header-main ul li a:hover {
+  color: #83cd8f;
+}
+
+/* header section end*/
+/* header section start*/
+.banner-section {
+  background-color: #fffade;
+  padding: 80px 0;
+}
+.banner-section .banner-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+.banner-section .banner-main .banner-text h2 {
+  color: #090f1f;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 88px; /* 110% */
+}
+.banner-section .banner-main .banner-text p {
+  margin: 30px 0 40px 0;
+  color: #2c3347;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.banner-section .banner-main .banner-img img {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* header section end*/
+/* header section start*/
+.brand-section {
+  padding-top: 123px;
+}
+.brand-section .brand-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.country-section {
+  padding-top: 120px;
+}
+.country-section .country-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+.country-section .country-main .country-item {
+  background-color: #eef6e7;
+  border-radius: 20px;
+}
+.country-section .country-main .country-item .img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

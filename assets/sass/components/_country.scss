@@ -1,0 +1,18 @@
+.country-section {
+  padding-top: 120px;
+  .country-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    .country-item {
+      background-color: $bg-color;
+      border-radius: 20px;
+      .img {
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+    }
+  }
+}

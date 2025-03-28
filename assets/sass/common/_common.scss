@@ -1,0 +1,95 @@
+// google fonts
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+// common css
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-pace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+span,
+a {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  transition: all linear 0.3s;
+  font-family: $font-pace;
+}
+ul {
+  list-style: none;
+}
+body {
+  color: #2c3347;
+  font-family: $font-inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.theme-btn {
+  color: $black-color;
+  font-family: $font-pace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: capitalize;
+  padding: 19px 30px;
+  border-radius: 50px;
+  background: $bg-color;
+  border: 0;
+  i {
+    font-size: 10px;
+    margin-left: 10px;
+    top: -1px;
+    position: relative;
+  }
+  &:hover {
+    color: $white-color;
+    background: $primary-color;
+  }
+  &.dark-btn {
+    background-color: $black-color;
+    color: $white-color;
+  }
+}
+// container
+.container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+// section title css
+
+.section-title {
+  .title {
+    color: $black-color;
+    font-size: 50;
+    font-weight: 700;
+    line-height: 55px;
+  }
+}

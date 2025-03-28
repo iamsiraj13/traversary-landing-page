@@ -1,0 +1,36 @@
+/* header section start*/
+.heder-section {
+  background-color: $white-color;
+  padding: 30px 0;
+
+  .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      li {
+        display: inline-block;
+        margin: 0 15px;
+        a {
+          font-family: $font-inter;
+          font-weight: 500;
+          line-height: 27px;
+          color: $black-color;
+          font-size: 18px;
+          display: block;
+          text-transform: capitalize;
+          i {
+            font-size: 10px;
+            position: relative;
+            top: -1;
+          }
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* header section end*/
