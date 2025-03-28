@@ -2,33 +2,28 @@
 .banner-section {
   background-color: $bg-color-two;
   padding: 80px 0;
-  .banner-main {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    align-items: center;
-    .banner-text {
-      h2 {
-        color: $black-color;
-        font-family: $font-pace;
-        font-size: 80px;
-        font-weight: 700;
-        line-height: 88px; /* 110% */
-      }
-      p {
-        margin: 30px 0 40px 0;
-        color: #2c3347;
-        font-family: $font-inter;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 27px;
-      }
+
+  .banner-text {
+    h2 {
+      color: $black-color;
+      font-family: $font-pace;
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 88px; /* 110% */
     }
-    .banner-img {
-      img {
-        border-radius: 20px;
-        overflow: hidden;
-      }
+    p {
+      margin: 30px 0 40px 0;
+      color: #2c3347;
+      font-family: $font-inter;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+    }
+  }
+  .banner-img {
+    img {
+      border-radius: 20px;
+      overflow: hidden;
     }
   }
 }

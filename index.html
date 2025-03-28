@@ -5,52 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travery - Simple Landing Page</title>
     <link rel="shortcut icon" href="./assets/images/fevicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <!-- header section start -->
-     <header class="heder-section">
-        <div class="container">
-            <div class="header-main">
-                <div class="logo">
-                    <a href="index.html"><img src="./assets/images/logo/logo.svg" alt=""></a>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </a></li>
-                        <li><a href="#">Services
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </a></li>
-                        <li><a href="#">Pricing
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </a></li>
-                        <li><a href="#">Contact
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </a></li>
-                    </ul>
-                </nav>
+     <header class="heder-section"> 
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+              <a class="navbar-brand" href="index.html"><img src="./assets/images/logo/logo.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                   
+                  <li class="nav-item"><a class="nav-link" href="#">Home
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Pricing
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a></li>
+                
+              
+                  
+                </ul>
                 <div class="header-btn">
                     <a href="#" class="theme-btn">contact us <i class="fa-solid fa-right-long"></i></a>
                 </div>
+              </div>
             </div>
-        </div>
-     </header>
+          </nav>
+    </header>
     <!-- header section end -->
    <main>
      <!-- banner section start -->
     <section class="banner-section">
         <div class="container">
-            <div class="banner-main">
-                <div class="banner-text">
-                    <h2>Visas typically issued by a country's</h2>
-                    <p> A visa is an official document that permits entry into a specific country. It indicates the holder's permission to stay either temporarily  A visa is an official document </p>
-                    <a href="#" class="theme-btn dark-btn">Get A E Visa <i class="fa-solid fa-right-long"></i></a></a>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="banner-text">
+                        <h2>Visas typically issued by a country's</h2>
+                        <p> A visa is an official document that permits entry into a specific country. It indicates the holder's permission to stay either temporarily  A visa is an official document </p>
+                        <a href="#" class="theme-btn dark-btn">Get A E Visa <i class="fa-solid fa-right-long"></i></a></a>
+                    </div>
+                   
                 </div>
-                <div class="banner-img">
-                    <img src="./assets/images/banner.png" alt="">
+                <div class="col-md-6">
+                    <div class="banner-img">
+                        <img class="img-fluid" src="./assets/images/banner.png" alt="">
+                    </div>
                 </div>
 
 
@@ -87,7 +98,8 @@
             <div class="section-title">
                 <h2 class="title">Top Countries</h2>
             </div>
-            <div class="country-main">
+            <div class="row">
+               <div class="col-md-4">
                 <div class="country-item">
                     <div class="img">
                         <img src="./assets/images/country/1.png" alt="country">
@@ -107,25 +119,28 @@
                         <a href="#" class="normal-btn">Appy Now <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="country-item">
-                    <div class="img">
-                        <img src="./assets/images/country/2.png" alt="country">
-                    </div>
-                    <div class="country-text">
-                        <div class="title-box"> 
-                            <h3>
-                                <a href="#">Canada</a>
-                            </h3>
-                            <h4 class="price">
-                                <span>$</span>220.00
-                            </h4>
-                        </div>
-                        <p class="desc">
-                            A Visa allows individuals to enter a country various purposes such tourism A Visa allows
-                        </p>
-                        <a href="#" class="normal-btn">Appy Now <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
+               </div>
+               <div class="col-md-4"> <div class="country-item">
+                <div class="img">
+                    <img src="./assets/images/country/2.png" alt="country">
                 </div>
+                <div class="country-text">
+                    <div class="title-box"> 
+                        <h3>
+                            <a href="#">Canada</a>
+                        </h3>
+                        <h4 class="price">
+                            <span>$</span>220.00
+                        </h4>
+                    </div>
+                    <p class="desc">
+                        A Visa allows individuals to enter a country various purposes such tourism A Visa allows
+                    </p>
+                    <a href="#" class="normal-btn">Appy Now <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+               <div class="col-md-4">
                 <div class="country-item">
                     <div class="img">
                         <img src="./assets/images/country/3.png" alt="country">
@@ -145,6 +160,7 @@
                         <a href="#" class="normal-btn">Appy Now <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
+               </div>
             </div>
         </div>
      </section>
@@ -165,49 +181,56 @@
             <div class="section-title">
                 <h2 class="title">Our best Recent Blog And News</h2>
             </div>
-            <div class="blog-main">
-                <div class="blog-item">
-                    <div class="img">
-                        <img src="./assets/images/blog/1.png" alt="country">
-                    </div>
-                    <div class="blog-text">
-                        <div class="blog-meta">
-                            <ul>
-                                <li><i class="fa-solid fa-user"></i>By Authod</li>
-                                <li><i class="fa-solid fa-calendar-days"></i>By Authod</li>
-                            </ul>
+            <div class="row">
+                 
+                <div class="col-md-4">
+                    <div class="blog-item">
+                        <div class="img">
+                            <img src="./assets/images/blog/1.png" alt="country">
                         </div>
-                        <div class="title-box"> 
-                            <h3>
-                                <a href="#">Explore Beyond Global The a Freedom</a>
-                            </h3>
-                             
-                        </div> 
-                        <a href="#" class="normal-btn">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="blog-text">
+                            <div class="blog-meta">
+                                <ul>
+                                    <li><i class="fa-solid fa-user"></i>By Authod</li>
+                                    <li><i class="fa-solid fa-calendar-days"></i>By Authod</li>
+                                </ul>
+                            </div>
+                            <div class="title-box"> 
+                                <h3>
+                                    <a href="#">Explore Beyond Global The a Freedom</a>
+                                </h3>
+                                 
+                            </div> 
+                            <a href="#" class="normal-btn">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="blog-item">
-                    <div class="img">
-                        <img src="./assets/images/blog/2.png" alt="country">
-                    </div>
-                    <div class="blog-text">
-                        <div class="blog-meta">
-                            <ul>
-                                <li><i class="fa-solid fa-user"></i>By Authod</li>
-                                <li><i class="fa-solid fa-calendar-days"></i>By Authod</li>
-                            </ul>
+                <div class="col-md-4">
+                    <div class="blog-item">
+                        <div class="img">
+                            <img src="./assets/images/blog/2.png" alt="country">
                         </div>
-                        <div class="title-box"> 
-                            <h3>
-                                <a href="#">Unlock New Horizons
-                                    Navigate World</a>
-                            </h3>
-                             
-                        </div> 
-                        <a href="#" class="normal-btn">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        <div class="blog-text">
+                            <div class="blog-meta">
+                                <ul>
+                                    <li><i class="fa-solid fa-user"></i>By Authod</li>
+                                    <li><i class="fa-solid fa-calendar-days"></i>By Authod</li>
+                                </ul>
+                            </div>
+                            <div class="title-box"> 
+                                <h3>
+                                    <a href="#">Unlock New Horizons
+                                        Navigate World</a>
+                                </h3>
+                                 
+                            </div> 
+                            <a href="#" class="normal-btn">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="blog-item">
+
+                
+                <div class="col-md-4"><div class="blog-item">
                     <div class="img">
                         <img src="./assets/images/blog/3.png" alt="country">
                     </div>
@@ -227,7 +250,7 @@
                         </div> 
                         <a href="#" class="normal-btn">Read More <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
-                </div>
+                </div></div>
            
              
             </div>
@@ -308,6 +331,7 @@
         </div>
      </footer>
     <!-- footer section end -->
-    
+    <script src="./assets/js/bootstrap.js"></script>
 </body>
 </html>
+ 
