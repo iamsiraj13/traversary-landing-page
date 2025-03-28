@@ -86,9 +86,10 @@ body {
 // section title css
 
 .section-title {
+  padding-bottom: 60px;
   .title {
     color: $black-color;
-    font-size: 50;
+    font-size: 50px;
     font-weight: 700;
     line-height: 55px;
   }

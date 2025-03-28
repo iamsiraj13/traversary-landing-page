@@ -1,5 +1,6 @@
 .country-section {
   padding-top: 120px;
+
   .country-main {
     display: flex;
     justify-content: space-between;
@@ -8,10 +9,75 @@
     .country-item {
       background-color: $bg-color;
       border-radius: 20px;
+      max-width: 33%;
       .img {
         width: 100%;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+        }
+      }
+      .country-text {
+        padding: 30px 30px 40px;
+        .title-box {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 30px;
+          h3 {
+            a {
+              color: $black-color;
+              font-family: $font-pace;
+              font-size: 30px;
+              font-weight: 700;
+              line-height: 30px;
+              &:hover {
+                color: $primary-color;
+              }
+            }
+          }
+          .price {
+            color: $black-color;
+            font-family: $font-pace;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 30px;
+            span {
+              color: $primary-color;
+            }
+          }
+        }
+
+        .desc {
+          color: var(--Gray-800, #2c3347);
+          font-family: $font-inter;
+          font-size: 14px;
+          line-height: 22px;
+          text-transform: capitalize;
+        }
+        .normal-btn {
+          margin-top: 30px;
+          color: $black-color;
+          font-family: $font-pace;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 22px;
+          transition: all 0.5s;
+          &:hover {
+            color: $primary-color;
+            i {
+              margin-left: 5px;
+            }
+          }
+          i {
+            position: relative;
+            top: -1px;
+            font-size: 14px;
+            transition: all linear 0.3s;
+          }
+        }
       }
     }
   }
